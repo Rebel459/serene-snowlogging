@@ -1,2 +1,2 @@
-# fractured
-Public GitHub repository for Fractured
+# Serene Snowlogging
+Public GitHub repository for Serene Snowlogging
