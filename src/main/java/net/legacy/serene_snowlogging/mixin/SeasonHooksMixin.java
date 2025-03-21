@@ -32,7 +32,7 @@ public class SeasonHooksMixin {
 		} else {
 			if (levelReader.isInsideBuildHeight(pos.getY()) && levelReader.getBrightness(LightLayer.BLOCK, pos) < 10) {
 				BlockState blockstate = levelReader.getBlockState(pos);
-				if (blockstate.isAir() && Blocks.SNOW.defaultBlockState().canSurvive(levelReader, pos) || Blocks.SNOW.defaultBlockState().canSurvive(levelReader, pos) && SnowloggingUtils.canSnowlog(levelReader.getBlockState(pos)) && WWBlockConfig.canSnowlogNaturally()) {
+				if (blockstate.isAir() && Blocks.SNOW.defaultBlockState().canSurvive(levelReader, pos) || SnowloggingUtils.canSnowlog(levelReader.getBlockState(pos)) && WWBlockConfig.canSnowlogNaturally()) {
 					cir.setReturnValue(true);
 				}
 			}
