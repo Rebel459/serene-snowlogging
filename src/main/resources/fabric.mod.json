@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "serene_snowlogging",
+	"version": "${version}",
+	"name": "Serene Snowlogging",
+	"description": "Adds full snowlogging integration between Serene Seasons and Wilder Wild",
+	"authors": [
+		"Rebel459"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/Rebel459",
+		"sources": "https://github.com/Rebel459/Legacies"
+	},
+	"license": "Legacy License",
+	"icon": "assets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.legacy.legacies.SereneSnowlogging"
+		]
+	},
+	"accessWidener": "serene_snowlogging.accesswidener",
+	"mixins": [
+		"serene_snowlogging.mixins.json"
+	],
+	"depends": {
+		"minecraft": "1.21.4",
+		"fabric-api": "*"
+	}
+}

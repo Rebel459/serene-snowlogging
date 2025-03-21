@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "net.legacy.serene_snowlogging.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"RandomUpdateHandlerMixin",
+		"SeasonHooksMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
