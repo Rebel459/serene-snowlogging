@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "net.legacy.legacies.SereneSnowlogging"
+          "net.legacy.serene_snowlogging.SereneSnowlogging"
 		]
 	},
 	"accessWidener": "serene_snowlogging.accesswidener",
